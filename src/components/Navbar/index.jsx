@@ -78,10 +78,10 @@ function SNavbar() {
           </NavLink>
           <NavLink
             role={role}
-            roles={accessPayments.lihat}
-            action={() => navigate("/transactions")}
+            roles={accessOrders.lihat}
+            action={() => navigate("/orders")}
           >
-            Transactions
+            Orders
           </NavLink>
         </Nav>
         <Nav>
